@@ -1,0 +1,6 @@
+@AngularCalculadora.Server_HostAddress = http://localhost:5052
+
+GET {{AngularCalculadora.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

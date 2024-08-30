@@ -1,0 +1,17 @@
+
+<div class="form-control">
+  <h4>Calculadora Basica</h4>
+  <p>Seleccione la operacion a realizar</p>
+  <select class="form-control" [(ngModel)]="operacion" (change)="onOptionChange($event)">
+    <option value="suma">Suma</option>
+    <option value="resta">Resta</option>
+    <option value="multiplicacion">Multiplicación</option>
+    <option value="division">División</option>
+    <option value="factorial">Factorial</option>
+  </select>
+  <input class="form-control" type="number" [(ngModel)]="numero1" placeholder="Número 1" />
+  <input class="form-control" type="number" [(ngModel)]="numero2" [disabled]="isDisabled" placeholder="Número 2" />
+  <button class="form-control" (click)="calcular()">Calcular</button>
+  <h5 class="form-control" *ngIf="resultado !== undefined">Resultado: {{ resultado }}</h5>
+  <h5 class="form-control" *ngIf="mensajeError">{{ mensajeError }}</h5>
+</div>

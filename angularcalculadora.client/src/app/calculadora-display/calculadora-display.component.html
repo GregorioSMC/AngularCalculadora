@@ -1,0 +1,25 @@
+<div class="container">
+
+  <div class="calculadora">
+    <input class="pantalla" type="text" [(ngModel)]="numeroEntrada" placeholder="0" disabled="True" />
+    <button id="c" class="btn" (click)="reset()">C</button>
+    <button id="borrar" class="btn" (click)="asignarOperacion($event)">F</button>
+    <button class="btn" (click)="asignarOperacion($event)">/</button>
+    <button class="btn" (click)="asignarOperacion($event)">*</button>
+    <button class="btn" (click)="asignarValor($event)">7</button>
+    <button class="btn" (click)="asignarValor($event)">8</button>
+    <button class="btn" (click)="asignarValor($event)">9</button>
+    <button class="btn" (click)="asignarOperacion($event)">-</button>
+    <button class="btn" (click)="asignarValor($event)">4</button>
+    <button class="btn" (click)="asignarValor($event)">5</button>
+    <button class="btn" (click)="asignarValor($event)">6</button>
+    <button class="btn" (click)="asignarOperacion($event)">+</button>
+    <button class="btn" (click)="asignarValor($event)">1</button>
+    <button class="btn" (click)="asignarValor($event)">2</button>
+    <button class="btn" (click)="asignarValor($event)">3</button>
+    <button id="igual" class="btn" (click)="calcular()">=</button>
+    <button id="cero" class="btn" (click)="asignarValor($event)">0</button>
+    <button class="btn" (click)="asignarValor($event)">.</button>
+  </div>
+
+</div>

@@ -1,7 +1,7 @@
 # Video de evidencia de funcionamiento del proyecto
 Visita el [Video Evidencia](https://www.awesomescreenshot.com/video/31025091?key=121bf61c1f70f95c42ed6686505e490d)
 
-Proyecto de Evaluación con Angular y ASP.NET
+## Proyecto de Evaluación con Angular y ASP.NET
 
 >Interfaz de inicio y por defecto
 ![Pantalla1](https://github.com/user-attachments/assets/bed35ef8-6f31-4b38-a8f4-b70c106cec77)
